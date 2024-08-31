@@ -7,6 +7,12 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
   <title>Frontend Mentor | Recipe page</title>
@@ -25,9 +31,11 @@
 </head>
 
 <body>
+  <div class="recipe-img">
+    <img src="assets/images/image-omelette.jpeg" alt="Simple Omelette">
+  </div>
   <main class="recipe-main">
     <section class="recipe-intro">
-      <img src="assets/images/image-omelette.jpeg" alt="Simple Omelette">
       <h1 class="recipe-title">Simple Omelette Recipe</h1>
       <p class="recipe-desc">
         An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
@@ -38,60 +46,97 @@
       <h3>Preparation time</h2>
         <ul>
           <li>
-            <span class="list-item-title">Total: </span>
-            Approximately 10 minutes
+            <span class="list-item-content">
+              <span class="list-item-title">Total: </span>
+              Approximately 10 minutes
+            </span>
           </li>
           <li>
-            <span class="list-item-title">Preparation: </span>
-            Approximately 5 minutes
+            <span class="list-item-content">
+              <span class="list-item-title">Preparation: </span>
+              Approximately 5 minutes
+            </span>
           </li>
           <li>
-          <li>
-            <span class="list-item-title">Cooking: </span>
-            Approximately 5 minutes
+            <span class="list-item-content">
+              <span class="list-item-title">Cooking: </span>
+              Approximately 5 minutes
+            </span>
           </li>
         </ul>
     </section>
     <section class="recipe-ingredients">
       <h2>Ingredients</h2>
       <ul>
-        <li>2-3 large eggs</li>
-        <li>Salt, to taste</li>
-        <li>Pepper, to taste</li>
-        <li>1 tablespoon of butter or oil</li>
-        <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+        <li>
+          <span class="list-item-content">
+            2-3 large eggs
+          </span>
+        </li>
+        <li>
+          <span class="list-item-content">
+            Salt, to taste
+          </span>
+        </li>
+        <li>
+          <span class="list-item-content">
+            Pepper, to taste
+          </span>
+        </li>
+        <li>
+          <span class="list-item-content">
+            1 tablespoon of butter or oil
+          </span>
+        </li>
+        <li>
+          <span class="list-item-content">
+            Optional fillings: cheese, diced vegetables, cooked meats, herbs
+          </span>
+        </li>
       </ul>
     </section>
     <section class="recipe-instructions">
       <h2>Instructions</h2>
       <ol>
         <li>
-          <span class="list-item-title">Beat the eggs: </span>
-          In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
-          You can add a tablespoon of water or milk for a fluffier texture.
+          <span class="list-item-content">
+            <span class="list-item-title">Beat the eggs: </span>
+            In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+            You can add a tablespoon of water or milk for a fluffier texture.
+          </span>
         </li>
         <li>
-          <span class="list-item-title">Heat the pan: </span>
-          Place a non-stick frying pan over medium heat and add butter or oil.
+          <span class="list-item-content">
+            <span class="list-item-title">Heat the pan: </span>
+            Place a non-stick frying pan over medium heat and add butter or oil.
+          </span>
         </li>
         <li>
-          <span class="list-item-title">Cook the omelette: </span>
-          Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
-          the eggs evenly coat the surface.
+          <span class="list-item-content">
+            <span class="list-item-title">Cook the omelette: </span>
+            Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+            the eggs evenly coat the surface.
+          </span>
         </li>
         <li>
-          <span class="list-item-title">Add fillings (optional): </span>
-          When the eggs begin to set at the edges but are still slightly runny in the
-          middle, sprinkle your chosen fillings over one half of the omelette.
+          <span class="list-item-content">
+            <span class="list-item-title">Add fillings (optional): </span>
+            When the eggs begin to set at the edges but are still slightly runny in the
+            middle, sprinkle your chosen fillings over one half of the omelette.
+          </span>
         </li>
         <li>
-          <span class="list-item-title">Fold and serve: </span>
-          As the omelette continues to cook, carefully lift one edge and fold it over the
-          fillings. Let it cook for another minute, then slide it onto a plate.
+          <span class="list-item-content">
+            <span class="list-item-title">Fold and serve: </span>
+            As the omelette continues to cook, carefully lift one edge and fold it over the
+            fillings. Let it cook for another minute, then slide it onto a plate.
+          </span>
         </li>
         <li>
-          <span class="list-item-title">Enjoy: </span>
-          Serve hot, with additional salt and pepper if needed.
+          <span class="list-item-content">
+            <span class="list-item-title">Enjoy: </span>
+            Serve hot, with additional salt and pepper if needed.
+          </span>
         </li>
       </ol>
     </section>
